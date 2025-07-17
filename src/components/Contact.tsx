@@ -48,8 +48,7 @@ const Contact = () => {
 
         setSubmitStatus('success');
         resetForm();
-      } catch (error) {
-        console.error('Error enviando email:', error);
+      } catch {
         setSubmitStatus('error');
       } finally {
         setIsSubmitting(false);
