@@ -1,5 +1,5 @@
 import { Mail, Phone, MapPin, Instagram } from 'lucide-react';
-import logo from "../../public/assets/LogoCybernemesis.webp";
+import logo from "../assets/LogoCybernemesis.webp";
 
 const Footer = () => {
   return (

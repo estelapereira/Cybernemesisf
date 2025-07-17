@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Shield, Zap, Lock } from 'lucide-react';
-import logo from "../../public/assets/LogoCybernemesis.webp";
+import logo from "../assets/LogoCybernemesis.webp";
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
 

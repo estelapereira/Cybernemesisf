@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../../public/assets/LogoCybernemesis.webp";
+import logo from "../assets/LogoCybernemesis.webp";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
